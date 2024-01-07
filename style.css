@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500;1,900&family=Poppins:ital@1&family=Roboto:ital,wght@1,500&family=Work+Sans:ital,wght@1,200&display=swap');body{
+    height: 90vh;
+    width:90wh;
+    background-color: rgb(106, 248, 137);
+}
+
+#wrapper{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.border{
+height: 50%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: solid;
+border-color: rgb(241, 240, 240);
+border-radius: 50px;
+background-color: rgb(241, 240, 240);
+}
+#chrono{
+   color: black;
+   font-size: 70px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 900;
+   text-decoration: none;
+}
+button{
+height: 50px;
+width: 150px;
+border: none;
+border-radius: 10px;
+background-color: gray;
+color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+button:hover{
+    color: white;
+    background-color: rgb(56, 105, 240);
+
+}
